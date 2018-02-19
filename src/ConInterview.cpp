@@ -44,7 +44,7 @@ int main()
 	                if(string::npos != sFileLine.find("GET"))
 	                {
 	                        qTemp = strdup(sFileLine.c_str());
-	                        r=q;
+	                        rTemp=qTemp;
 	                        pTemp = strchr(qTemp,'/');
 
 	                        qTemp = pTemp+1;
