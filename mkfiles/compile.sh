@@ -1,1 +1,1 @@
-g++ -g Test1.cpp -lcurl
+g++ -g ../src/ConInterview.cpp -lcurl
