@@ -1,0 +1,1 @@
+g++ -g Test1.cpp -lcurl
