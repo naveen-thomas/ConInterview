@@ -63,7 +63,7 @@ int main()
 	 /*---- Process the number to get the actual return message ----*/
 
 	     char szRetMsg[1024];
-	     ProcessFunc(q,szRetMsg);
+	     ProcessFunc(qTemp,szRetMsg);
 
 	        // cout << szRetMsg << endl;
 
